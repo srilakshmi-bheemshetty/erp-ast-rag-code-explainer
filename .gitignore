@@ -1,0 +1,9 @@
+# Generated vector database
+erp_code_index/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets
+.env
