@@ -1,3 +1,6 @@
+# Cursor IDE
+.cursor/
+
 # Generated vector database
 erp_code_index/
 
@@ -7,3 +10,4 @@ __pycache__/
 
 # Secrets
 .env
+.env.*

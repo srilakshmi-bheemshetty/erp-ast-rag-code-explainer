@@ -1,9 +1,9 @@
-from module_reader import get_python_files
-from ast_parser import extract_functions
-from knowledge_builder import build_documents
-from vector_store import build_vector_store
-from retriever import retrieve_context
-from rag_explainer import explain
+from erpnext.erpnext.erp_ai_assistant.ast.module_reader import get_python_files
+from erpnext.erpnext.erp_ai_assistant.ast.ast_parser import extract_functions
+from erpnext.erpnext.erp_ai_assistant.rag.knowledge_builder import build_documents
+from erpnext.erpnext.erp_ai_assistant.rag.vector_store import build_vector_store
+from erpnext.erpnext.erp_ai_assistant.rag.retriever import retrieve_context
+from erpnext.erpnext.erp_ai_assistant.rag.rag_explainer import explain
 from config import ERP_SOURCE_PATH
 
 def index_erp():

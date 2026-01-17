@@ -1,13 +1,14 @@
 from groq import Groq
 from config import GROQ_MODEL
 
-def explain(query, context):
+
+def explain(query: str, context: str) -> str:
     prompt = f"""
 You are an ERP code explainer.
 
 RULES:
 - Use ONLY the provided context
-- Do NOT guess missing information
+- Do NOT guess
 - Do NOT execute code
 
 Context:
